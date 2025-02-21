@@ -6,7 +6,7 @@ RUN apt-get -qqy update \
  && apt-get -qqy install logrotate \
  && apt-get -qqy install libsasl2-2 \
  && apt-get -qqy install sudo \
- && apt-get -qqy install install openssl \
+ && apt-get -qqy install openssl \
  && curl -OL https://cloud.mongodb.com/download/agent/automation/mongodb-mms-automation-agent-manager_13.28.0.9300-1_amd64.ubuntu1604.deb \
  && sudo dpkg -i mongodb-mms-automation-agent-manager_13.28.0.9300-1_amd64.ubuntu1604.deb \
  && rm -rf mongodb-mms-automation-agent-manager_13.21.0.9061-1_amd64.ubuntu1604.deb \
